@@ -1,0 +1,183 @@
+/******HEADER IMAGE******/
+.jumbotron {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.jumbotron .bg-overlay {
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#classesHeader {
+    background-image: url("../images/classes02.jpg");
+}
+
+#scheduleHeader {
+    background-image: url("../images/schedule01.jpg");
+}
+
+#instructorsHeader {
+    background-image: url("../images/instructors1.jpg");
+}
+
+#aboutHeader {
+    background-image: url("../images/about.jpg");
+}
+
+/*** Common classes ***/
+.blue-bg {
+    background-color: #12123A;
+}
+
+.bg-opacity {
+    background-color: rgba(18, 18, 58, 0.9);
+}
+
+.orangeText {
+    color: #F24900 !important;
+}
+
+.blueText {
+    color: #12123A;
+}
+
+.social-icon {
+    width: 10%;
+    height: auto;
+}
+.bg-orange {
+    background-color: #F24900;
+}
+.fa-phone {
+    transform: rotate(90deg);
+}
+
+
+/****** Schedule (Maria)******/
+.bg-gray {
+    background-color: #f4f4f4;
+}
+
+.bg-gray-light {
+    background-color: #F7F7F7;
+}
+
+.btn-orange {
+    background-image: linear-gradient(to bottom, #f24900, #eb4a05, #e44b0a, #dd4c0f, #d64d13);
+}
+
+.btn-orange:hover {
+    transition: 0.7s;
+    background-image: linear-gradient(to bottom, #ff5f1a, #f75a18, #ee5615, #e65113, #de4d10);
+}
+
+.step-card {
+    border-top: 2px solid #12123A;
+}
+
+.step-card:hover {
+    box-shadow: 5px 5px 5px 0px rgba(242, 242, 242, 0.9);
+    transition: 0.4s;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to top, #12123a, #151546, #181853, #1b1b5f, #1e1e6c);
+}
+
+/******SCROLLBAR******/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F24900;
+}
+
+/*  CLASSES (Cezary) */
+.zoom {
+
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+
+/*INSTRUCTORS (Claudiu)*/
+
+#fixed1 {
+    background-image: url(../images/instructor.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#fixed2 {
+    background-image: url("../images/spinning.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#fixed3 {
+    background-image: url("../images/Zumba.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card-shadow {
+    -webkit-box-shadow: -19px 19px 43px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: -19px 19px 43px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: -19px 19px 43px 0px rgba(0, 0, 0, 0.31);
+}
+
+
+/*****ABOUT PAGE (Ionut)*****/
+
+.pic-animation,
+.pic-animation-reversed {
+    transition-duration: 500ms;
+    transition-property: all; 
+    transition-timing-function: ease-out;
+    z-index: 1;
+}
+
+.pic-animation:hover {
+    transform: rotate(-2deg) scale(1.05, 1.05);
+
+}
+
+.pic-animation-reversed:hover {
+    transform: rotate(2deg) scale(1.05, 1.05);
+
+}
+
+iframe {
+    border: 0;
+}
+
+

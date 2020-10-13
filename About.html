@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>VIAFit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+    <script src="https://kit.fontawesome.com/72db12e280.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0 p-md-5">
+        <!--NAVIGATION BAR (Group Work)-->
+        <!--The navigation consists of logo, surrounded by an anchor element aligned 
+            to the left on all breakpoints, and an ul element aligned to the right with all the anchors redirecting to specific pages-->
+        <!--On small screens the navigation items are hidden under burger menu icon, displayed on-click -->
+        <nav class="navbar navbar-expand-lg navbar-dark blue-bg fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo" title="VIAFit" class="img-fluid w-75">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end font-weight-bold h5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-white text-center" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-white text-center" href="Classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-white text-center" href="Schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-white text-center" href="Instructors.html">Instructors</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link orangeText text-center" href="About.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron mt-5" id="aboutHeader">
+            <div class="bg-overlay d-flex justify-content-center align-items-center">
+                <div class="container  text-white">
+                    <h1 class="display-3 font-weight-bold text-center"><span class="orangeText">About</span> us </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT PAGE made by Ionut Grosu-->
+    <!-- MAIN CONTENT OF THE PAGE -->
+    <div class="container-fluid">
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left align-items-center bg-gray">
+            <div class="col-12 col-xl-6 mt-lg-2 m-xl-0 d-flex justify-content-center">
+                <img class="img-fluid rounded pic-animation-reversed" src="images/about1.jpg" alt="about1" title="Stay motivated!">
+            </div>
+            <div class="col-12 col-xl-6 p-2 p-md-5">
+                <h2 class="font-weight-bold pt-2">What is VIAFit?</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                <p>VIAFit is fitness centre founded and designed in 1990. Since then, we helped thousands of members with their training, recovery and keeping their bodies healthy. Here, we ensure that you will find everything necessary to fulfill your needs, whether you want to build mass, improve stamina or any goal you set for yourself. </p>
+            </div>
+        </div>
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left align-items-center bg-gray">
+            <div class="col-12 col-xl-6 order-last order-xl-first p-2 p-md-5">
+                <h2 class="font-weight-bold pt-2">What can you find here?</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                <p>At VIAFit you can find everything for youself, whether you are fitness enthusiast or you just started your adventure with the concept of fitness. Have you been thinking about powerlifting or experimenting with weights? We have fully functional gym with equipment for members of every strength. Do you want to test your stamina's limit? Feel free to use our section with adjusted treadmills and stationary bicycles. Or maybe you are interested in organised courses? Don't hesitate to choose any of our seven classes with certified instructors. </p>
+            </div>
+            <div class="col-12 col-xl-6 mt-lg-2 m-xl-0 d-flex justify-content-center">
+                <img class="img-fluid rounded pic-animation" src="images/about2.jpg" alt="about2" title="Stay unstoppable!">
+            </div>
+        </div>
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left align-items-center bg-gray">
+            <div class="col-12 col-xl-6 mt-lg-2 m-xl-0 d-flex justify-content-center">
+                <img class="img-fluid rounded pic-animation-reversed" src="images/about3.jpg" alt="about3" title="Stay strong!">
+            </div>
+            <div class="col-12 col-xl-6 bg-gray p-md-5">
+                <h2 class="font-weight-bold pt-2">When are we opened?</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                <table class="table">
+                    <tr>
+                        <td>Weekdays</td>
+                        <td>05:30 - 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Weekends</td>
+                        <td>07:00 - 22:00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left align-items-center bg-gray">
+            <div class="col-12 col-xl-6 bg-gray p-md-5">
+                <h2 class="font-weight-bold pt-2">Where to find us?</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                <p>Feel free to come by our fitness center if you want to become a member. You can find us at Kollegievænget 26, 8700 Horsens or by checking this map.</p>
+            </div>
+            <!--I have used resposive embeds for the iframe because it is not very responsive and this helps maintain a certain aspect ratio and size throughout the multiple breakpoints-->
+            <div class="col-12 col-xl-6 embed-responsive embed-responsive-4by3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5641.680137323191!2d9.88626984143406!3d55.86996699111041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c63be87e17d19%3A0xa65113d28ba174ba!2sVIA%20University%20Campus%20Horsens!5e0!3m2!1sen!2sdk!4v1586375982012!5m2!1sen!2sdk" width="800" height="600" allowfullscreen="" aria-hidden="false" tabindex="0" class="embed-responsive-item"></iframe>
+            </div>
+        </div>
+        <!--CONTACT FORM-->
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left align-items-center bg-gray" id="contact">
+            <div class="col-12 col-lg-6 p-2 p-md-5">
+                <h2 class="font-weight-bold">Contact us</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                <p>At VIAFit we care about our members and we encourage you to contact us for any question, problem or suggestion you might have.</p>
+            </div>
+            <div class="col-12 col-lg-6 p-md-3">
+                <form class="p-2 text-left" id="contactForm">
+                    <div class="form-group row">
+                        <div class="col-xl-6">
+                            <label>Name</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-user-tie orangeText"></i>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" placeholder='Name*' required>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 mt-3 mt-md-0">
+                            <label>Email</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-envelope orangeText"></i>
+                                    </div>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Email address*" required>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row ml-2 mb-3">
+                        <small id="emailHelp" class="form-text text-muted">*We will never share your personal info with anyone else.</small>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12">
+                            <label>Message</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-envelope-open orangeText"></i>
+                                    </div>
+                                </div>
+                                <textarea class="form-control">Your message
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <!--This will only work on the localhost because google needs a certain domain for the website. If it gives an error about an "Invalid domain" it should just be opened with the Brackets Live Preview.-->
+                            <div class="g-recaptcha" data-sitekey="6LeiwegUAAAAAM1MOMmU7bZU2iSVavsYPPe-pCI9"></div>
+                        </div>
+                        <div class="col-xl-6 pt-1">
+                            <!--The button is of type button instead of submit because it kept refreshing the page and as this is just a dummy form with no backend functionality for now I did not want that.-->
+                            <button type="button" class="btn bg-orange text-white float-xl-right align-middle">Send message<i class="fas fa-paper-plane ml-2"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--FITNESS CENTER HISTORY-->
+        <!--This sections consists of rows with no gutterss between them, centered text on small screens and text aligned left on medium and above -->
+        <!--Each row has twelve column layout on small and medium breakpoints, and six by six on large and above, the image fluid class is used to maintain responsiveness across breakpoints -->
+        <div class="row my-3 m-md-5 no-gutters text-center text-md-left bg-gray">
+            <div class="col-12 p-2 p-md-5 pb-md-0">
+                <h2 class="font-weight-bold">Our story</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+            </div>
+            <div class="row mx-md-5 p-2 no-gutters text-left align-items-center">
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <h4><i class="fas fa-dumbbell orangeText pr-2"></i>The beginning</h4>
+                    <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                    <p>It all started in 1989 when Rob Sixpack decided to pursue his dream and invested what he inherited from his uncle, Tom Biceps, into building a small fitness center that we all know and love now, more than 30 years later.</p>
+                </div>
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <img class="img-fluid rounded pic-animation" src="images/historyPic1.jpg" alt="historyPic1" title="Our beginning">
+                </div>
+            </div>
+            <div class="row mx-md-5 p-2 no-gutters text-left align-items-center">
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <h4><i class="fas fa-fire orangeText pr-2"></i>The candle incident</h4>
+                    <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                    <p>Only one year after the opening of our fitness center the bad luck struck us and half the building burned down because of a candle forgotten lit in the old archive. But one good thing came out of this. Rob Sixpack bought new bikes for the spinning class with the leftover money from the insurance and this is how Bob Sixpack, his son and now the owner of VIAFit, started training for what later became a spinning instructor superstar.</p>
+                </div>
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <img class="img-fluid rounded pic-animation" src="images/historyPic2.jpg" alt="historyPic2" title="The candle incident">
+                </div>
+            </div>
+            <div class="row mx-md-5 p-2 no-gutters text-left align-items-center">
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <h4><i class="fas fa-trophy orangeText pr-2"></i>Our achievements</h4>
+                    <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-25">
+                    <p>With the rise of Bob Sixpack's career came also the popularity of this fitness center and rise of our members:</p>
+                    <dl>
+                        <dt>1993</dt>
+                        <dd>- 100 members</dd>
+                        <dt>2001</dt>
+                        <dd>- 1000 members</dd>
+                        <dt>2015</dt>
+                        <dd>- 2000 members</dd>
+                    </dl>
+                </div>
+                <div class="col-12 col-lg-6 p-2 p-md-5">
+                    <img class="img-fluid rounded pic-animation" src="images/historyPic3.jpg" alt="historyPic3" title="Our achievements">
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- FOOTER (Groupwork) -->
+    <!-- The wrapper for the footer is container fluid so its displayed with 100% on all breakpoints-->
+    <!-- The footer consists of four rows -->
+    <!-- The first row is twelve column layout for displaying a motivation quote-->
+    <!-- The second row is twelve column layout on small devices, six by six on medium and five by seven on large and above-->
+    <!-- There is a paragraph aligned to the left on medium and above, and a container of social media icons aligned to the right on medium and above-->
+    <!-- The third row represents the main content for the footer with twelve column layout on small and three column layout on medium and above -->
+    <!-- The fourth row is twelve column layout on all breakpoints consisting of the copyright-->
+    <div class="container-fluid blue-bg text-white">
+        <div class="row text-center mt-5 p-5 bg-gradient">
+            <div class="col-12">
+                <h3 class="text-uppercase">Stay active, stay fit</h3>
+                <p class="small text-uppercase orangeText font-weight-bold">with viafit</p>
+            </div>
+        </div>
+        <div class="row py-3 mx-xl-5">
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-3 mb-md-0 orangeText">
+                <p class="mb-0">Stay connected<span class="d-none d-md-inline">, follow us on social media!</span></p>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f orangeText mr-5"></i></a>
+                <a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter orangeText mr-5"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram orangeText"></i></a>
+            </div>
+        </div>
+
+        <div class="row text-center text-md-left mt-5 justify-content-center ml-xl-5">
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">viafit horsens</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p class="mx-auto mx-md-0 small w-75 ">With a large selection of team training and experienced trainers, Viafit ensures the right fit for you</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">About us</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p><a class="text-white" href="Classes.html">Classes</a></p>
+                <p><a class="text-white" href="Schedule.html">Schedule</a></p>
+                <p><a class="text-white" href="Instructors.html">Instructors</a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">Opening hours</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p class="mb-0 font-weight-bold">Weekdays</p>
+                <p class="small">05:30 - 22:00</p>
+                <p class="mb-0 font-weight-bold">Weekend</p>
+                <p class="small">07:00 - 22:00</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-md-0 mb-4">
+                <h5 class="text-uppercase font-weight-bold">Contact</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p><i class="fas fa-home mr-3"></i>Kollegievænget 26, Horsens</p>
+                <a class="text-white" href="mailto:viafit@gmail.com">
+                    <i class="fas fa-envelope mr-3 mb-4"></i>viafit@gmail.com</a>
+                <p><i class="fas fa-phone mr-3"></i> + 45 50 17 86 65</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-muted text-center py-3 small">&copy; 2020 Copyright:
+                <a href="index.html" class="orangeText"> viafit.dk</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

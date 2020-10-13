@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  HEAD  -->
+
+<head>
+    <meta charset="utf-8">
+    <title>VIAFit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+    <script src="https://kit.fontawesome.com/72db12e280.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<!--  BODY  -->
+
+<body>
+
+    <div class="container-fluid p-0 p-md-5">
+        <!--NAVIGATION BAR (Group Work)-->
+        <!--The navigation consists of logo, surrounded by an anchor element aligned 
+            to the left on all breakpoints, and an ul element aligned to the right with all the anchors redirecting to specific pages-->
+        <!--On small screens the navigation items are hidden under burger menu icon, displayed on-click -->
+        <nav class="navbar navbar-expand-lg navbar-dark blue-bg fixed-top">
+            <a class="navbar-brand" href="index.html"> <img src="images/logo.png" class="img-fluid w-75" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse justify-content-end font-weight-bold h5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-1"> <a class="nav-link text-white text-center" href="index.html">Home</a> </li>
+                    <li class="nav-item px-1"> <a class="nav-link text-white text-center" href="Classes.html">Classes</a> </li>
+                    <li class="nav-item px-1"> <a class="nav-link text-white text-center" href="Schedule.html">Schedule</a> </li>
+                    <li class="nav-item px-1"> <a class="nav-link orangeText text-center" href="Instructors.html">Instructors</a> </li>
+                    <li class="nav-item px-1"> <a class="nav-link text-white text-center" href="About.html">About Us</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <!--  BANNER  -->
+        <div class="jumbotron mt-5" id="instructorsHeader">
+            <div class="bg-overlay d-flex justify-content-center align-items-center">
+                <div class="container  text-white">
+                    <h1 class="display-4 font-weight-bold text-center"><span class="orangeText">Our</span> Instructors </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INSTRUCTORS PAGE made by Claudiu Hornet -->
+    <!--  INSTRUCTORS CARDS  -->
+    <hr class="my-4">  <!-- Grey horizontal rule -->
+    <div class="container">  <!-- Using container with the margins instead of container-fluid -->
+        <!--  USING GRID LAYOUT FOR ORGANISING THE INSTRUCTOR CARDS -->
+        <div class="row">
+            <!--  CARD 1  -->
+            <div class="col-sm-6 col-lg-3">   <!-- Different layouts for different breakpoints -->
+                <div class="card card-shadow h-100"> <img class="card-img-top" src="images/Cezary.png" alt="instructor">  <!-- I use h-100 for arranging the cards at the same height, card-shadow class form CSS for design , card-img-top for placing the image in the top part of the card -->
+                    <div class="card-body">
+                        <h5 class="card-title">Cezary Korenczuk</h5>
+                        <p class="card-text">"Making excuses burns 0 calories per hour"</p>
+                        <p class="card-text">Classes: Postural, TRX, Zumba</p> <a class="text-danger" href="mailto:299118@via.dk">299118@via.dk</a>
+                    </div>
+                    <!--  DETAILS  -->
+                    <div id="CezaryInfo" class="collapse">  <!-- Using collapse class because these details are collapsible -->
+                            <div class="text-center p-3">  <!-- text-center for arranging text on center and p-3 for padding, these are for design  -->
+                                <p>Want to get the most out of your fitness goals? Want a little extra guidance while doing so? Are you looking to take your training to the next level?</p>
+                                <p>I would be more than happy to help you reach your goals. Just write me an email and we can start right away.</p>
+                                <p>12 sessions - 4416 DKK</p>
+                                <p>1 session - 450 DKK</p>
+                            </div>
+                    </div>
+                    <button class="info bg-orange text-white" data-toggle="collapse" data-target="#CezaryInfo">Click for more details</button> <!-- Here is the button for the collapsible content -->
+                </div>
+            </div>
+            <!--  CARD 2  -->
+            <div class="col-sm-6 col-lg-3"> <!-- Different layouts for different breakpoints -->
+                <div class="card card-shadow h-100"> <img class="card-img-top" src="images/Claudiu.png" alt="instructor">  <!-- I use h-100 for arranging the cards at the same height, card-shadow class form CSS for design , card-img-top for placing the image in the top part of the card -->
+                    <div class="card-body">
+                        <h5 class="card-title">Claudiu Hornet</h5>
+                        <p class="card-text">"Everyone wants to go to heaven but nobody wants to die"</p>
+                        <p class="card-text">Classes: Crossfit, TRX, Stretching</p> <a class="text-danger" href="mailto:297113@via.dk">297113@via.dk</a>
+                    </div>
+                    <!--  DETAILS  -->
+                    <div id="ClaudiuInfo" class="collapse">  <!-- Using collapse class because these details are collapsible -->
+                            <div class="text-center p-3">  <!-- text-center for arranging text on center and p-3 for padding, these are for design  -->
+                                <p>I was a professional ice hockey player and I always loved sports. I specialize in bodybuilding, cardio training and functional training.</p>
+                                <p>Are you interested in getting into the best shape of your life? Just write me an email and we can start right away.</p>
+                                <p>12 sessions - 6624 DKK</p>
+                                <p>1 session - 625 DKK</p>
+                            </div>
+                    </div>
+                    <button class="info bg-orange text-white" data-toggle="collapse" data-target="#ClaudiuInfo">Click for more details</button>  <!-- Here is the button for the collapsible content -->
+                </div>
+            </div>
+            <!--  CARD 3  -->
+            <div class="col-sm-6  col-lg-3">  <!-- Different layouts for different breakpoints -->
+                <div class="card card-shadow h-100"> <img class="card-img-top" src="images/Ionut.png" alt="instructor">  <!-- I use h-100 for arranging the cards at the same height, card-shadow class form CSS for design , card-img-top for placing the image in the top part of the card -->
+                    <div class="card-body">
+                        <h5 class="card-title">Ionut Grosu</h5>
+                        <p class="card-text">"Spinning is my second favorite S word"</p>
+                        <p class="card-text">Classes: Spinning, Crossfit, Yoga</p> <a class="text-danger" href="mailto:297111@via.dk">297111@via.dk</a>
+                    </div>
+                    <!--  DETAILS  -->
+                    <div id="IonutInfo" class="collapse">  <!-- Using collapse class because these details are collapsible -->
+                            <div class="text-center p-3">  <!-- text-center for arranging text on center and p-3 for padding, these are for design  -->
+                                <p>Do you want to lose weight? Or do you want to grow muscles and get stronger? Or do you simply want more energy a healthier lifestyle?</p>
+                                <p>I would be more than happy to help you reach your goals. Just write me an email and we can start right away.</p>
+                                <p>12 sessions - 4850 DKK</p>
+                                <p>1 session - 485 DKK</p>
+                            </div>
+                    </div>
+                    <button class="info bg-orange text-white" data-toggle="collapse" data-target="#IonutInfo">Click for more details</button>  <!-- Here is the button for the collapsible content -->
+                </div>
+            </div>
+            <!--  CARD 4  --> 
+            <div class="col-sm-6  col-lg-3">  <!-- Different layouts for different breakpoints -->
+                <div class="card card-shadow h-100"> <img class="card-img-top" src="images/maria.png" alt="instructor">  <!-- I use h-100 for arranging the cards at the same height, card-shadow class form CSS for design , card-img-top for placing the image in the top part of the card -->
+                    <div class="card-body">
+                        <h5 class="card-title">Maria Asenova</h5>
+                        <p class="card-text">"Inhale the future, exhale the past"</p>
+                        <p class="card-text">Classes: Yoga, Stretching, Zumba</p> <a class="text-danger" href="mailto:239533@via.dk">239533@via.dk</a>
+                    </div>
+                    <!--  DETAILS  -->
+                    <div id="MariaInfo" class="collapse">  <!-- Using collapse class because these details are collapsible -->
+                            <div class="text-center p-3">  <!-- text-center for arranging text on center and p-3 for padding, these are for design  -->
+                                <p>I love the personal aspect of training individuals and achieving their goals. It keeps me motivated to constantly to become the best version of myself.</p>
+                                <p>I would be more than happy to help you reach your goals. Just write me an email and we can start right away.</p>
+                                <p>12 sessions - 4970 DKK</p>
+                                <p>1 session - 497 DKK</p>
+                            </div>
+                    </div>
+                    <button class="info bg-orange text-white" data-toggle="collapse" data-target="#MariaInfo">Click for more details</button>  <!-- Here is the button for the collapsible content -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  FIXED BACKGROUND 1  -->
+    <hr class="my-4">  <!-- Grey horizontal rule -->
+    <figure>  
+            <div class="d-flex align-items-center justify-content-center" id="fixed1">  <!-- I used flex-box properties for arranging the text in the middle of the container, and the image is made through CSS for design-->
+                <h1 class="font-weight-bold orangeText">WE are proud about our instructors</h1>
+            </div>
+    </figure>
+    <hr class="my-4">  <!-- Grey horizontal rule -->
+    <!-- "Can't decide which instructor to choose?"  --> 
+    <div class="container">
+        <div class="row welcome text-center">   <!--  USING GRID LAYOUT FOR THE QUESTION/TITLE -->
+            <div class="col-12">
+                <h2 class="display-4 orangeText">Can't decide which instructor to choose?</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-100">  <!-- An orange line for design. bg-orange is the background, mb-5 for margin bottom, mt-0 for margin top, to be as close as possible to text, mx-auto for margins left & right and w-100 for width -->
+            </div>
+        </div>
+        <!-- USING CARD-DECK FOR ORGANISING THE STEP CARDS  AND BE RESPONSIVE -->
+        <div class="card-deck">
+            <div class="card card-shadow text-center" id="card1">  <!-- USING A CSS CLASS FOR SHADOW -->
+                <div class="card-title font-weight-bold mt-3">Step 1</div>  <!-- FONT WEIGHT + MARGIN TOP FOR DESIGN -->
+                <div class="card-body text-muted">Try a group class with each instructor and see which one do you like the most</div> <!-- Text-muted also for design  -->
+            </div>
+            <div class="card card-shadow text-center" id="card2">
+                <div class="card-title font-weight-bold mt-3">Step 2</div>
+                <div class="card-body text-muted">Come to reception and ask us more information about the instructor you like</div>
+            </div>
+            <div class="card card-shadow text-center" id="card3">
+                <div class="card-title font-weight-bold mt-3">Step 3</div>
+                <div class="card-body text-muted">Send him/her an email or approach him/her in gym and start working to become the best version of yourself</div>
+            </div>
+        </div>
+    </div>
+    <!--  FIXED BACKGROUND 2  -->
+    <hr class="my-4">   <!-- Grey horizontal rule -->
+    <figure id="fixed2"></figure>  <!-- Image created and edited through CSS -->
+    <hr class="my-4">   <!-- Grey horizontal rule -->
+    <!--  REASONS TO TRAIN WITH AN INSTRUCTOR  -->
+    <div class="container">
+        <div class="row text-center">  <!--  USING GRID LAYOUT FOR THE TITLE -->
+            <div class="col-12">
+                <h2 class="display-4 orangeText">Reasons to train with an instructor</h2>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-100">  <!-- An orange line for design. bg-orange is the background, mb-5 for margin bottom, mt-0 for margin top, to be as close as possible to text, mx-auto for margins left & right and w-100 for width -->
+            </div>
+        </div>
+        <div class="card-deck">  <!-- USING CARD-DECK FOR ORGANISING THE REASONS CARDS, SAME AS THE STEP CARDS  AND BE RESPONSIVE -->
+            <div class="card card-shadow text-center">
+                <div class="card-title font-weight-bold mt-3">Reason 1</div>
+                <div class="card-body text-muted">They can help with your unique requirements</div>
+            </div>
+            <div class="card card-shadow text-center">
+                <div class="card-title font-weight-bold mt-3">Reason 2</div>
+                <div class="card-body text-muted">Personalised training plan for your goal</div>
+            </div>
+            <div class="card card-shadow text-center">
+                <div class="card-title font-weight-bold mt-3">Reason 3</div>
+                <div class="card-body text-muted">They challenge you and help you to push your limits</div>
+            </div>
+            <div class="card card-shadow text-center">
+                <div class="card-title font-weight-bold mt-3">Reason 4</div>
+                <div class="card-body text-muted">They can teach you new things</div>
+            </div>
+        </div>
+    </div>
+    <!--  FIXED BACKGROUND 3  -->
+    <hr class="my-4">   <!-- Grey horizontal rule -->
+    <figure id="fixed3"></figure>  <!-- Image created and edited through CSS -->
+    <hr class="my-4">   <!-- Grey horizontal rule -->
+    <!--  JOIN THE TEAM  -->
+    <div class="container">
+        <div class="row text-center">  <!--  USING GRID LAYOUT FOR ARRANGING THE TEXT AND BUTTON AND BE RESPONSIVE -->
+            <div class="col-12">
+                <h1 class="display-4 orangeText">Are you an instructor?</h1>
+                <hr class="bg-orange mb-5 mt-0 d-inline-block mx-auto w-75">  <!-- An orange line for design. bg-orange is the background, mb-5 for margin bottom, mt-0 for margin top, to be as close as possible to text, mx-auto for margins left & right and w-100 for width -->
+                <p class="lead">Join our team, become an instructor at VIAfit. If you are trying to do your best and be at your best everyday then you should click the button below and write us a message to join the team</p> <a href="About.html#contact" class="btn bg-orange text-white" role="button">JOIN OUR TEAM</a>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <!-- FOOTER (Groupwork) -->
+    <!-- The wrapper for the footer is container fluid so its displayed with 100% on all breakpoints-->
+    <!-- The footer consists of four rows -->
+    <!-- The first row is twelve column layout for displaying a motivation quote-->
+    <!-- The second row is twelve column layout on small devices, six by six on medium and five by seven on large and above-->
+    <!-- There is a paragraph aligned to the left on medium and above, and a container of social media icons aligned to the right on medium and above-->
+    <!-- The third row represents the main content for the footer with twelve column layout on small and three column layout on medium and above -->
+    <!-- The fourth row is twelve column layout on all breakpoints consisting of the copyright-->
+    <div class="container-fluid blue-bg text-white">
+        <div class="row text-center mt-5 p-5 bg-gradient">
+            <div class="col-12">
+                <h3 class="text-uppercase">Stay active, stay fit</h3>
+                <p class="small text-uppercase orangeText font-weight-bold">with viafit</p>
+            </div>
+        </div>
+        <div class="row py-3 mx-xl-5">
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-3 mb-md-0 orangeText">
+                <p class="mb-0">Stay connected<span class="d-none d-md-inline">, follow us on social media!</span></p>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f orangeText mr-5"></i></a>
+                <a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter orangeText mr-5"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram orangeText"></i></a>
+            </div>
+        </div>
+
+        <div class="row text-center text-md-left mt-5 justify-content-center ml-xl-5">
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">viafit horsens</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p class="mx-auto mx-md-0 small w-75 ">With a large selection of team training and experienced trainers, Viafit ensures the right fit for you</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">About us</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p><a class="text-white" href="Classes.html">Classes</a></p>
+                <p><a class="text-white" href="Schedule.html">Schedule</a></p>
+                <p><a class="text-white" href="Instructors.html">Instructors</a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-4">
+                <h5 class="text-uppercase font-weight-bold">Opening hours</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p class="mb-0 font-weight-bold">Weekdays</p>
+                <p class="small">05:30 - 22:00</p>
+                <p class="mb-0 font-weight-bold">Weekend</p>
+                <p class="small">07:00 - 22:00</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 justify-content-center mx-auto mb-md-0 mb-4">
+                <h5 class="text-uppercase font-weight-bold">Contact</h5>
+                <hr class="bg-orange mb-4 mt-0 d-inline-block mx-auto w-25">
+                <p><i class="fas fa-home mr-3"></i>Kollegievænget 26, Horsens</p>
+                <a class="text-white" href="mailto:viafit@gmail.com">
+                    <i class="fas fa-envelope mr-3 mb-4"></i>viafit@gmail.com</a>
+                <p><i class="fas fa-phone mr-3"></i> + 45 50 17 86 65</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-muted text-center py-3 small">&copy; 2020 Copyright:
+                <a href="index.html" class="orangeText"> viafit.dk</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
